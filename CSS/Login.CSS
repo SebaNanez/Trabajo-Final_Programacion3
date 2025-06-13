@@ -1,0 +1,130 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  color: #FFD700;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2FkANXwdqCqsN6jjy6Im6cuJNHWk8aAeuw&s) center/cover no-repeat;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #FFD700;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Formulario {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #FFD700;
+  border-radius: 12px;
+  padding: 40px 30px;
+  width: 350px;
+  box-sizing: border-box;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.Formulario h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #FFD700;
+}
+
+.Formulario label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #FFD700;
+}
+
+.Formulario input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(30, 30, 30, 0.85);
+  border: 1.5px solid #FFD700;
+  border-radius: 6px;
+  color: #FFF8DC;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.Formulario input::placeholder {
+  color: #ffe066;
+}
+
+.Formulario input:focus {
+  outline: none;
+  border-color: #FFEB3B;
+  box-shadow: 0 0 6px #FFEB3B;
+  background-color: rgba(40, 40, 40, 0.95);
+}
+
+.Formulario button {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #FFD700 0%, #FFEB3B 100%);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Formulario button:hover {
+  background: linear-gradient(90deg, #FFEB3B 0%, #FFD700 100%);
+  box-shadow: 0 0 22px #FFD700;
+}
+
+.Formulario a {
+  color: #FFD700;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.Formulario a:hover {
+  color: #FFEB3B;
+  text-shadow: 0 0 4px #FFEB3B;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #FFD700;
+  font-weight: 500;
+  font-size: 0.9rem;
+  
+}
