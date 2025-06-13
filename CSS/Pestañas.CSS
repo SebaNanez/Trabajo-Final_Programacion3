@@ -151,3 +151,85 @@ footer {
   color: #000 !important;
   box-shadow: 0 0 8px #ffe066 !important;
 }
+
+/* Tabla de Criptos – Fondo dorado, detalles negros */
+.table-crypto {
+  border: 2px solid #000;                /* bordes negros */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #FFD700;             /* fondo dorado */
+}
+
+.table-crypto thead {
+  background-color: #FFC700;             /* un dorado un poco más oscuro para contraste */
+}
+
+.table-crypto th {
+  color: #000 !important;                /* texto negro */
+  border-bottom: 1px solid #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.table-crypto td {
+  color: #000;                           /* texto negro */
+  border-bottom: 1px solid #333;
+}
+
+/* Hover de fila: oscurece ligeramente el fondo dorado */
+.table-crypto tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Botones Comprar/Vender – fondo dorado, texto y borde negros */
+.btn-buy, .btn-sell {
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #000;               /* borde negro */
+  color: #000;                           /* texto negro */
+  background: #FFD700;                   /* fondo dorado */
+}
+
+.btn-buy:hover {
+  background: #FFC700;                   /* hover un poco más oscuro */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-sell {
+  /* si querés un tono distinto para “vender”, podés usar otro dorado */
+  background: #FFB300;
+  border-color: #000;
+}
+
+.btn-sell:hover {
+  background: #E6A200;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el buscador de criptos */
+#cryptoSearch {
+  background-color: #000 !important;    /* fondo negro */
+  color: #FFD700 !important;            /* texto dorado */
+  border: 2px solid #FFD700 !important; /* borde dorado */
+  border-radius: 8px;                   /* redondeo */
+  padding: 0.5rem 1rem;                 /* espacio interno */
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);
+  width: 100%;                          /* ocupa todo el contenedor */
+  box-sizing: border-box;
+}
+
+/* Placeholder dorado más suave */
+#cryptoSearch::placeholder {
+  color: #FFE066 !important;
+}
+
+/* Al enfocarse */
+#cryptoSearch:focus {
+  outline: none;
+  box-shadow: 0 0 8px #FFD700;
+  background-color: #111;              /* un negro un poco más claro al focus */
+}
