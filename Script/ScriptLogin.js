@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       // Login exitoso: mostramos SweetAlert y redirigimos al confirmar
-      const { mensaje } = await response.json();
+      const { mensaje, id } = await response.json();
+      localStorage.setItem("userId", id);
+      localStorage.setItem("usuario", nombreUsuario); 
       Swal.fire({
         title: '¡Éxito!',
         text: mensaje,

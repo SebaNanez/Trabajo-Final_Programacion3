@@ -233,3 +233,26 @@ footer {
   box-shadow: 0 0 8px #FFD700;
   background-color: #111;              /* un negro un poco más claro al focus */
 }
+
+.swal2-popup--custom {
+  background: #000 !important;
+  border: 2px solid #FFD700 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3) !important;
+  box-sizing: border-box !important;
+}
+
+.swal2-title--gold {
+  color: #FFD700 !important;
+  text-shadow: 0 0 6px #ffe066;
+}
+
+.swal2-content--gold {
+  color: #FFF8DC !important;
+}
+
+.swal2-confirm--gold {
+  background-color: #FFD700 !important;
+  color: #000 !important;
+  box-shadow: 0 0 8px #ffe066 !important;
+}
