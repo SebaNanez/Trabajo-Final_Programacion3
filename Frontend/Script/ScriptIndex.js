@@ -12,7 +12,7 @@ async function loadCriptos() {
 
   try {
     const res = await fetch("http://localhost:5000/api/Criptos");
-    const criptos = await res.json(); // [{ id, nombre, simbolo }, …]
+    const criptos = await res.json();
 
     // obtenemos precio de cada cripto
     const datos = await Promise.all(criptos.map(async c => {
@@ -142,7 +142,6 @@ function setupBuyModal() {
   });
 }
 
-// 4) Inicialización en Index
 document.addEventListener("DOMContentLoaded", async () => {
   await loadCriptos();
   setupSearchFilter();

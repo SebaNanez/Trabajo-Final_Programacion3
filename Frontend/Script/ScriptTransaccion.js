@@ -15,7 +15,6 @@ async function loadHistory() {
     const txs = await res.json();
     console.log('📦 Transacciones JSON:', txs);
 
-    // ordenar (aunque ya lo haces en el servidor)
     txs.sort((a, b) =>
       new Date(b.fechaTransaccion) - new Date(a.fechaTransaccion)
     );
@@ -23,7 +22,6 @@ async function loadHistory() {
     tbody.innerHTML = '';
 
     txs.forEach(t => {
-      // usa la propiedad camelCase
       const date = new Date(t.fechaTransaccion);
       const fechaFmt = date.toLocaleString('es-AR', {
         year:   'numeric',

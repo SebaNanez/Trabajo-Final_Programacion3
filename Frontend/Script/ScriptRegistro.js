@@ -24,7 +24,7 @@ document.getElementById("formRegistro").addEventListener("submit", async (e) => 
         if (checkResponse.ok) {
             const existe = await checkResponse.json();
             if (existe) {
-                console.log("Este nombre de usuario ya está registrado", "danger");
+                alert("Este nombre de usuario ya está registrado", "danger");
                 return; // Detener el proceso si ya existe
             }
         } else {
@@ -52,6 +52,7 @@ document.getElementById("formRegistro").addEventListener("submit", async (e) => 
 
         const data = await response.json();
         console.log(`Usuario ${data.nombreUsuario} registrado con éxito!`, "success");
+        window.location.href = "Login.html";
         document.getElementById("formRegistro").reset();
 
     } catch (error) {

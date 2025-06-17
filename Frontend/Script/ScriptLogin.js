@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             confirmButton: 'swal2-confirm--gold'
         }
       }).then(() => {
-        window.location.href = "Index.html";
+        window.location.href = "Criptomonedas.html";
       });
 
     } catch (error) {
