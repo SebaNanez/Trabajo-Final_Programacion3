@@ -79,7 +79,6 @@ async function loadWallet() {
       totalUSDEl.textContent = "-";
     }
 
-    // ¡Enganchar una sola vez el modal de venta!
     setupSellModal();
 
   } catch (err) {

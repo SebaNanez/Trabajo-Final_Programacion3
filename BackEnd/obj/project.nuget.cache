@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m225JebkORc=",
+  "dgSpecHash": "fZi/vjTrEW8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sande\\OneDrive\\Escritorio\\facultad seba\\Programacion 3\\Trabajo_Final_Prog3\\VirtualCripto\\BackEnd - Trabajo Final - Programacion 3\\BackEnd - Trabajo Final - Programacion 3.csproj",
+  "projectFilePath": "C:\\Users\\sande\\OneDrive\\Escritorio\\facultad seba\\Programacion 3\\Trabajo_Final_Prog3\\VirtualCripto\\BackEnd\\BackEnd - Trabajo Final - Programacion 3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

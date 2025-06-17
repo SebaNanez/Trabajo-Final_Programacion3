@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackEnd - Trabajo Final - Programacion 3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6318cd9e9e995525be7957d598a767ffd4216c4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ee6af4fcfdc9e897f3cd7a918df5f00caa3a98f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackEnd - Trabajo Final - Programacion 3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackEnd - Trabajo Final - Programacion 3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
