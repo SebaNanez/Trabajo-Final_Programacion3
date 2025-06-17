@@ -51,7 +51,7 @@ document.getElementById("formRegistro").addEventListener("submit", async (e) => 
         }
 
         const data = await response.json();
-        console.log(`Usuario ${data.nombreUsuario} registrado con éxito!`, "success");
+        alert(`Usuario ${data.nombreUsuario} registrado con éxito!`, "success");
         window.location.href = "Login.html";
         document.getElementById("formRegistro").reset();
 
